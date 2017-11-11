@@ -1,0 +1,189 @@
+ul{
+    list-style-type: none;
+}
+
+/*
+#button{
+	height: 280px;
+	width: 210px;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+}
+*/
+
+.apb{
+	background-color: #999;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	left: 45%;
+	bottom: 15%;
+	transition: all 0.3s ease;
+	transition-delay: 1s;
+	background-size: 70%;
+    background-image: url("assets/images/atplus_white.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#button:hover .apb{
+	background-image: url("assets/images/atplus_green.png");
+	background-color: rgba(48, 63, 159, 1);
+	background-size: 70%;
+	transform: scale(1.5);
+	transition-delay: 0s;
+}
+
+.info{
+	position: absolute;
+	left: 45%;
+	bottom: 15%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #999;
+	opacity: 0;
+	transition: 0.5s;
+    transition-delay: 0.6s;
+}
+
+#button:hover .info{
+	width: 130px;
+	height: 130px;
+	transform: translate(-40px,-70px);
+	opacity: 1;
+	transition-delay: 0.1s;
+}
+
+.button{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	transition: 0.5s;
+    transition-delay: 0.6s;
+}
+
+.mask, .message, .history, .setting, .sign{
+	position: absolute;
+	left: 45%;
+	bottom: 15%;
+	opacity: 0;
+	background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #999;
+}
+
+.mask:hover, .message:hover, .history:hover, .setting:hover, .sign:hover{
+	background-color: #666;
+}
+
+.mask{
+	background-image: url("assets/images/mask.png");
+}
+
+.history{
+	background-image: url("assets/images/history.png");
+}
+
+.message{
+	background-image: url("assets/images/message.png");
+}
+
+.setting{
+	background-image: url("assets/images/setting.png");
+}
+
+.sign{
+	background-image: url("assets/images/signout.png");
+}
+
+#button:hover .mask{
+	opacity: 1;
+    transform: translate(-65px,-50px);
+    transition-delay: 0.1s;
+}
+
+#button:hover .history{
+	transform: translate(-80px,0px);
+	opacity: 1;
+	transition-delay: 0.1s;
+}
+
+#button:hover .message{
+	transform: translate(-60px,45px);
+	opacity: 1;
+	transition-delay: 0.1s;
+}
+
+#button:hover .setting{
+	transform: translate(-10px,70px);
+	opacity: 1;
+	transition-delay: 0.1s;
+}
+
+#button:hover .sign{
+	transform: translate(45px,50px);
+	opacity: 1;
+	transition-delay: 0.1s;
+}
+
+.unread{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	left: 63%;
+	bottom: 65%;
+	background-color: red;
+	text-align: center;
+	color: white;
+	padding: 0;
+}
+
+li span{
+	padding-left: 5px;
+}
+
+.user{
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+.comment{
+	font-size: 28px;
+	color: white;
+	font-weight: bold;
+}
+
+.mine{
+	text-align: center;
+	display: inline-block;
+	background-position: center;
+	text-align: center;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 30px;
+	color: #079E6E;
+}
+
+.page img , .mine img{
+	width: 25px;
+	height: 25px;
+}
+
+.posted{
+	position: absolute;
+	top:60%;
+	left: 15%;
+	height: 30px;
+}
+
+.like{
+	position: absolute;
+	top:60%;
+	left: 53%;
+	height: 30px;
+}

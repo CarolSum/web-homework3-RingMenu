@@ -1,0 +1,247 @@
+#at-plus-container{
+	position: relative;
+}
+
+#bottom-positioner{
+	position: absolute;
+	width: 900px;
+	height: 850px;
+	left: 25%;
+	overflow: hidden;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+/*
+	apb样式
+*/
+.apb{
+	position: absolute;
+	background: url("assets/images/atplus_white.png") no-repeat center center;
+	background-color: #999;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	left: 45%;
+	bottom: 10%;
+	transition: all 0.3s ease;
+	background-size: 70%;
+}
+
+#button:hover .apb{
+	background: url("assets/images/atplus_green.png") no-repeat center center;
+	background-color: rgba(48, 63, 159, 1);
+	background-size: 70%;
+	transform: scale(1.5);
+	opacity: 1;
+}
+
+
+
+/*
+	info样式
+*/
+.info{
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #999;
+	transition: all 0.3s ease;
+	opacity: 0;
+}
+
+#button:hover .info{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 20%;
+	left: 40%;
+	opacity: 1;
+}
+
+
+
+.button{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+
+.mask{
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
+	opacity: 0;
+}
+
+#button:hover .mask{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 17%;
+	left: 36%;
+	background: url("assets/images/mask.png") no-repeat center center;
+	background-size: 50%;
+	background-color: #999;
+	opacity: 1;
+}
+
+.history{
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
+	opacity: 0;
+}
+
+#button:hover .history{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 10%;
+	left: 33%;
+	background: url("assets/images/history.png") no-repeat center center;
+	background-size: 50%;
+	background-color: #999;
+	opacity: 1;
+}
+
+.message{
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
+	opacity: 0;
+}
+
+#button:hover .message{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 3%;
+	left: 35%;
+	background: url("assets/images/message.png") no-repeat center center;
+	background-size: 50%;
+	background-color: #999;
+	opacity: 1;
+}
+
+.setting{
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
+	opacity: 0;
+}
+
+#button:hover .setting{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 0%;
+	left: 41%;
+	background: url("assets/images/setting.png") no-repeat center center;
+	background-size: 50%;
+	background-color: #999;
+	opacity: 1;
+}
+
+.sign{
+	position: absolute;
+	left: 45%;
+	bottom: 10%;
+	opacity: 0;
+}
+
+#button:hover .sign{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 1%;
+	left: 48%;
+	background: url("assets/images/signout.png") no-repeat center center;
+	background-size: 50%;
+	background-color: #999;
+	opacity: 1;
+}
+
+.unread{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: absolute;
+	left: 63%;
+	bottom: 65%;
+	background-color: red;
+	text-align: center;
+	color: white;
+}
+
+.user{
+	position: absolute;
+	top: 15%;
+}
+
+.user span{
+	padding-left: 10px;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.comment span{
+	padding-left: 10px;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.comment{
+	position: absolute;
+	top: 35%;
+}
+
+.mine{
+	text-align: center;
+	display: inline-block;
+	background-position: center;
+}
+
+.page img , .mine img{
+	width: 25px;
+	height: 25px;
+}
+
+
+
+.mine span{
+	padding-left: 5px;
+	font-size: 27px;
+	color: #079E6E;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+}
+
+.posted{
+	position: absolute;
+	top:60%;
+	left: 15%;
+	height: 30px;
+}
+
+.like{
+	position: absolute;
+	top:60%;
+	left: 53%;
+	height: 30px;
+}
